@@ -1,9 +1,41 @@
-import style from './styles.module.scss';
+import styles from './styles.module.scss';
 
 export function Player() {
-    return (
-        <div>
+	return (
+		<div className={styles.playerContainer}>
+			<header className="playerHeader">
+				<img src="/playing.svg" alt="Tocando Agora" />
+				<strong>Tocando Agora</strong>
+			</header>
+			<div className={styles.emptyPlayer}>
+				<strong className="descricaoStrong">Selecione um podcast para ouvir</strong>
+			</div>
+			<footer className={styles.empty}>
 
-        </div>
-    );
+				<div className={styles.progress}>
+					<span>00:00</span>
+					<div className={styles.slider}><div className={styles.emptySlider}></div></div>
+					<span>00:00</span>
+				</div>
+
+				<div className={styles.buttons}>
+					<button type="button">
+						<img src="/shuffle.svg" alt="Embaralhar" />
+					</button>
+					<button type="button">
+						<img src="/play-previous.svg" alt="Tocar Anterior" />
+					</button>
+					<button type="button" className={styles.playButton}>
+						<img src="/play.svg" alt="Tocar" />
+					</button>
+					<button type="button">
+						<img src="/play-next.svg" alt="Tocar Próxima" />
+					</button>
+					<button type="button">
+						<img src="/repeat.svg" alt="Repetir" />
+					</button>
+				</div>
+			</footer>
+		</div>
+	);
 }
