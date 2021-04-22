@@ -1,7 +1,5 @@
 //SPA disparar quando algo for modificado na aplicacao.
 //fetch ferramenta para fazer requisicao
-import { useEffect, useState } from "react"
-
 export default function Home(props) {
   return (
     <div>
