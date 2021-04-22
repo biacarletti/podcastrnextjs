@@ -3,7 +3,7 @@ import styles from './styles.module.scss';
 export function Player() {
 	return (
 		<div className={styles.playerContainer}>
-			<header className="playerHeader">
+			<header className={styles.playerHeader}>
 				<img src="/playing.svg" alt="Tocando Agora" />
 				<strong>Tocando Agora</strong>
 			</header>

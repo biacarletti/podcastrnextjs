@@ -12,9 +12,9 @@ export function Header() {
         <header className={styles.headerContainer}>
             <img src="/logo.svg" alt="Podcastr" />
 
-            <p className="description">O melhor para você ouvir, sempre</p>
+            <p className={styles.description}>O melhor para você ouvir, sempre</p>
 
-            <span className="date">{currentDate} </span>
+            <span className={styles.date}>{currentDate} </span>
         </header>
     );
 }
