@@ -25,17 +25,17 @@ Este projeto foi desenvolvido utilizando tecnologias de ponta de ponta.
 - [x] [Next.js](https://nextjs.org/)
 
 ## Conteúdo Trabalhado 
--Fundamento Web
--Fluxos de API
--Componente
--Propriedade
--Estado
--Server-side rendering
--Static site generation
--Método Geting Static Paths
--Fallback
--Type Script
--CSS module
+- Fundamento Web
+- Fluxos de API
+- Componente
+- Propriedade
+- Estado
+- Server-side rendering
+- Static site generation
+- Método Geting Static Paths
+- Fallback
+- Type Script
+- CSS module
 
 
 ## 💻 Primeiros passos
