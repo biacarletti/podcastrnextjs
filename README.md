@@ -1,14 +1,59 @@
-# Podcastr
+<div align="center">
+  <img src="https://raw.githubusercontent.com/josepholiveira/podcastr/main/.github/podcastr-logo.svg" alt="Podcastr logo">
+</div>
 
-Este projeto é da série de minicursos da rocketseat NLW #5
+## Podcastr
 
-## Como rodar
-  1. Tenha o NodeJs instalado na verão maior que 14.x
-  2. Clone o projeto no seu ambiente
-  3. Baixe a node_modules usando o comando abaixo
+[![Author](https://img.shields.io/badge/author-Beatriz-8257E5?style=flat-square)](https://github.com/biacarletti)
 
-    $ yarn install
-    
-  4. Rode o comando ``yarn serve`` em um terminal, ele deverá ficar rodando enquanto prosseguirmos
-  5. Execute o projeto nextjs com o terminal usando o comando ``yarn dev``
-  6. Abra o navegador na rota http://localhost:3000
+
+<h4 align="center">
+ Podcastr é uma plataforma construída para transmissão de podcast.
+</h4>
+
+Este aplicativo foi desenvolvido durante o evento online[Next Level Week #05](https://nextlevelweek.com/) oferecido pela [Rocketseat](https://app.rocketseat.com.br/discover).
+
+
+![Podcastr preview](https://raw.githubusercontent.com/josepholiveira/podcastr/main/.github/app-preview.png)
+
+## Técnologias 
+
+Este projeto foi desenvolvido utilizando tecnologias de ponta de ponta.
+
+- [x] [ReactJS](https://reactjs.org/)
+- [x] [Typescript](https://www.typescriptlang.org/)
+- [x] [Next.js](https://nextjs.org/)
+
+## 💻 Primeiros passos
+
+### Requisitos
+
+- Você precisa instalar ambos [Node.js](https://nodejs.org/en/download/) e [Yarn](https://yarnpkg.com/) para executar este projeto.
+
+
+** Clone o projeto e acesse a pasta **
+
+```bash
+$ git clone https://github.com/biacarletti/podcastrnextjs && cd podcastrnextjs
+```
+
+**Siga os passos abaixo**
+
+```bash
+# Instale as dependências
+$ yarn
+
+# Execute o servidor back-end falso
+$ yarn server
+
+
+# Execute o servidor web
+$ yarn dev
+```
+
+
+O aplicativo estará disponível para acesso em seu navegador em`http://localhost:3000`
+
+---
+
+Feito com 💜 por [Beatriz Carletti](https://github.com/biacarletti) 👋 [Confira meu LinkedIn](https://www.linkedin.com/in/beatriz-carletti-b96940218/)
