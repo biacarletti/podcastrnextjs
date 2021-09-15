@@ -24,6 +24,20 @@ Este projeto foi desenvolvido utilizando tecnologias de ponta de ponta.
 - [x] [Typescript](https://www.typescriptlang.org/)
 - [x] [Next.js](https://nextjs.org/)
 
+## Conteúdo Trabalhado 
+-Fundamento Web
+-Fluxos de API
+-Componente
+-Propriedade
+-Estado
+-Server-side rendering
+-Static site generation
+-Método Geting Static Paths
+-Fallback
+-Type Script
+-CSS module
+
+
 ## 💻 Primeiros passos
 
 ### Requisitos
@@ -41,7 +55,7 @@ $ git clone https://github.com/biacarletti/podcastrnextjs && cd podcastrnextjs
 
 ```bash
 # Instale as dependências
-$ yarn
+$ yarn install
 
 # Execute o servidor back-end falso
 $ yarn server
